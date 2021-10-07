@@ -16,7 +16,7 @@ p {
   float: left;
   width: 33.33%;
   padding: 5px;
-  display: inline-block;
+
 
 
 }
@@ -25,15 +25,15 @@ p {
   content: "";
   clear: both;
   display: table;
-  display: inline-block;
+
 
 }
 
 #content{
   background-color: #aaaaaa;
   width: 500px;
-  min-height: 300px;
-  padding: 10px;
+  min-height: 600px;
+  padding: 30px;
   margin: 10px;
   border: solid 5px #0000FF;
   font-size: 20px;
