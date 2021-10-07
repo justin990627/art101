@@ -8,6 +8,24 @@ p {
   text-indent: 20px;
   margin-left: 10px;
 }
+.organized{
+  text-align: center;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+
+
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+
+}
 
 #content{
   background-color: #aaaaaa;
@@ -17,4 +35,5 @@ p {
   margin: 10px;
   border: solid 5px #0000FF;
   font-size: 20px;
+  text-align: center;
 }
