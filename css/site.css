@@ -1,0 +1,15 @@
+#content{
+  background-color: #FFDB74;
+  width: 500px;
+  min-height: 600px;
+  padding: 30px;
+  margin: 10px;
+  border: solid 5px #FF0000;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+#my-portrait {
+    width: 500px;
+}
