@@ -1,15 +1,57 @@
 #content{
   background-color: #FFDB74;
-  width: 500px;
+  width: 1330px;
   min-height: 600px;
   padding: 30px;
   margin: 10px;
   border: solid 5px #FF0000;
   font-size: 20px;
+  text-align: justify;
+}
+
+.alignment {
+  display: flex;
+}
+  .alignment__column{
+    flex: 1;
+    margin: 0 8px;
+
+    display: flex;
+    flex-direction:column;
+  }
+    .alignment__content{
+      flex: 1;
+    }
+
+img{
+  margin: auto;
+  display:block;
+}
+
+.Page::first-letter{
+
+  float: left;
+  line-height: 1;
+
+  margin: 0 8px 0 0;
+  padding: 0 8px;
+
+  font-size: 64px;
+  font-weight: 700;
+}
+
+#justin-portrait {
+    width: 500px;
+}
+
+.link__align{
   text-align: center;
 }
 
-
-#my-portrait {
-    width: 500px;
+.nav{
+  align-items: center;
+  display: flex;
 }
+  .nav__separation{
+    margin: 0 8px;
+  }

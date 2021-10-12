@@ -6,30 +6,68 @@
 </head>
 <body>
 	<main>
+
 		<div id = "content">
-			<h1>This Is Justin From Taiwan</h1>
-			<p>I'm currently a 4th year AGPM major studying in UCSC. This is my first HTML/CSS class ever and I hope I will understand more about coding.</p>
 
-			<img id="Justin-portrait" src="img/IMG_9322.JPG" width=500 />
+			<div class="alignment">
+				<div class="alignment__column">
+<!--This puts the image as the "header" for each column -->
+					<div>
+						<img id="justin-portrait" src="img/IMG_9322.JPG" style="width:500px;height:700px" />
+					</div>
+						<div class="alignment__content">
+							<h1>This Is Justin From Taiwan</h1>
+<!-- This stylizes the first letter of the "about us" section -->
+							<div class="Page">
 
-			<h1> Christian Decareau </h1>
-			<p> I am a transfer student from City College of San Francisco, and this will be my second year here at UCSC in the Arts program. I have some C++ and Java knowledge from my former major of Computer Science, though I am very rusty. I enjoy boardgames, videogames, drawing, and occasional hikes. I hope that I am able to shake off some of that rust as I progress through this course.
-			</p>
+								<p>I'm currently a 4th year AGPM major studying in UCSC. This is my first HTML/CSS class ever and I hope I will understand more about coding.</p>
 
-			<img id="c-portrait" src= "img/mvimg_20190802_154707.jpeg" style="width:500px;height:600px"/>
+		  				</div>
+						</div>
+					</div>
+
+					<div class="alignment__column">
+						<div>
+							<img id="c-portrait" src= "img/mvimg_20190802_154707.jpeg" style="width:500px;height:700px"/>
+						</div>
+								<div class="alignment__content">
+									<h1> Christian Decareau </h1>
+
+										<div class="Page">
+
+											<p> I am a transfer student from City College of San Francisco, and this will be my second year here at UCSC in the Arts program. I have some C++ and Java knowledge from my former major of Computer Science, though I am very rusty. I enjoy boardgames, videogames, drawing, and occasional hikes. I hope that I am able to shake off some of that rust as I progress through this course.
+			                </p>
+		  							</div>
+									</div>
+								</div>
+							</div>
+
+
 
 			<ul>
-				<li><a href="lab2/index.html">Lab 2: Your First HTML</a></li>
-				<li><a href="lab3/index.html">Lab 3: File Structures</a></li>
-				<li><a href="lab4/index.html">Lab 4: File Transfer</a></li>
-				<li><a href="lab5/index.html">Lab 5: Data Types and Variables </a></li>
-				<li><a href="lab6/index.html">Lab 6: Arrays and Objects </a></li>
+				<div style="display:grid; justify-content:center">
+				<div class="nav">
+						<li><a href="lab2/index.html">Lab 2: Your First HTML</a></li>
+					<div class="nav__separation"></div>
+						<li><a href="lab3/index.html">Lab 3: File Structures</a></li>
+					<div class="nav__separation"></div>
+						<li><a href="lab4/index.html">Lab 4: File Transfer</a></li>
+
+				</div>
+			</div>
+
 			</ul>
+			<ul>
+				<div style="display:grid; justify-content:center">
+				<div class="nav">
+					<li><a href="lab5/index.html">Lab 5: Data Types and Variables </a></li>
+				<div class="nav__separation"></div>
+					<li><a href="lab6/index.html">Lab 6: Arrays and Objects </a></li>
+				</div>
+				</div>
+			</ul>
+
 		</div>
-
-
 	</main>
-
-
 </body>
 </html>
