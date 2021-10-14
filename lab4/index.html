@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocoding and Problem-solving</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+<div>
+	<div class="centering">
+	<h1>Lab 4: Pseudocoding and Problem-solving</h1>
+		<h2>Challenge</h2>
 
+		<div class="p1">
+			<p>For this lab, the issue we were presented was to break down a complex task or goal into more manageable steps, and present that as code.</p>
+		</div>
+
+		<h2>Problems</h2>
+		<div class="p1">
+			<p>One of the easiest things to do when doing this assignment was to overcomplicate or overthink things. Whether it be everything that required getting an A in the class entailed or how each chess piece moves.</p>
+		</div>
+
+		<h2>Results</h2>
+		<div class="p1">
+			<p> After process of elimination, and reigning in some of our overthought steps, we managed to create concise and organized psuedocode for our tasks.</p>
+
+
+			<h3>Getting an A in a class</h3>
+			<ol>
+					<li>Preview before every lecture</li>
+					<li>Participate in every lecture</li>
+					<li>Review after every lecture</li>
+					<li>Turn in assignments/projects on time</li>
+					<li>Go to office hours</li>
+					<li>Try to teach other students that are confused in your way of understanding</li>
+			</ol>
+
+			<h3>Game of Chess</h3>
+			<ol>
+				<li>Print the board</li>
+				<li>Accept player role choice</li>
+				<li>Initiate Player turn</li>
+				<li>Test for "check" condition</li>
+				<li>Accept Player input</li>
+				<li>Test for "Checkmate" Condition</li>
+			</ol>
+
+			<div>
+				<img id="sharki" src="img/Sharki.png" style="width:137px;height:132px" />
+			</div>
+		</div>
+
+	<pre><code>
+<!-- task 1  -->
+//Getting an A in a class
+//Preview before every lecture
+  //Participate in every lecture
+//Review after every lecture
+  //Turn in assignments/projects on time
+    //Go to office hours
+    //Try to teach other students that are confused in your way of understanding
+
+<!-- task 2 -->
+//Print the board before each turn
+  //Generate White pieces
+  //Generate Black pieces
+      //Players choose colors to play
+      //"White" Player goes first
+        //Player turn starts
+          //Verify if current player is in "Check"
+            //If positive, restrict legal moves
+              //Does the move get the player out of "Check"?
+                //Yes
+                  //The player can choose that move
+                //No
+                  //The player cannot choose that move
+            //If negative, player is free to choose any legal move
+              //Accept user input for legal move
+                //Is other player in "Checkmate"?
+                  //Yes
+                    //Game over, current player wins
+                  //No
+                    //Turn ends
+           //Cycle to next Player
+
+	</pre></code>
+	</div>
+
+</div>
 </body>
 </html>
