@@ -1,0 +1,38 @@
+.wallpaperVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+
+#content{
+
+  position: fixed;
+  color: white;
+  min-height: 800px;
+  padding: 30px;
+  margin: 10px;
+  border: solid 5px gold;
+  font-size: 20px;
+
+}
+
+
+.style{
+  font-family: Verdana;
+}
+
+.text{
+  text-align: left;
+
+}
+
+.frame{
+    float: right;
+    clear:right;
+    margin-left: 20px;
+}
