@@ -1,12 +1,13 @@
 #content{
   background-color: #FFDB74;
+  border: solid 5px #FF0000;
   width: 1330px;
   min-height: 600px;
   padding: 30px;
   margin: 10px;
-  border: solid 5px #FF0000;
   font-size: 20px;
   text-align: justify;
+
 }
 
 .alignment {
