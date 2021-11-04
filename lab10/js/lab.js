@@ -34,7 +34,7 @@ console.log(sortedName);
 
 // Replaces the html in <div id=output> with the results.
 var outputEl = document.getElementById("output");
-outputEl.innerHTML = "New Name " + sortedName;
+outputEl.innerHTML = "New Name: " + sortedName;
 console.log("New Name " + sortedName);
 }
 
