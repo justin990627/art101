@@ -40,3 +40,10 @@ var new2El = document.createElement("p"); //new <p>
 outputEl.appendChild(new1El);
 //properly attach new1El as a textNode to 'output' <div>
 outputEl.appendChild(new2El);
+
+
+new1El.style.color = "red";
+new1El.style.fontSize = "40px";
+new2El.style.color = "blue";
+new2El.style.fontSize = "40px";
+outputEl.style.backgroundColor = "papayawhip";
