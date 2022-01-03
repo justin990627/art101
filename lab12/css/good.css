@@ -9,7 +9,6 @@ div#content {
     padding: 50px;
     background-color: lightgray;
     border: solid 5px #333333;
-    height: 80vh;
 }
 
 h1, h2, h3 {
@@ -35,11 +34,11 @@ a:hover {
   text-decoration: line-through;
 }
 
-#output {
+/* #output {
   min-height: 40px;
   border: solid 1px black;
   padding: 10px;
-}
+} */
 
 .changed {
   border: solid 1px red;
