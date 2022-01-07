@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>自習練習中CSS</title>
+	<link rel="stylesheet" href="css/good.css">
 </head>
 <body style="height:1500px;">
 	<!-- 原版 -->
@@ -59,7 +60,11 @@
 	<hr>
 	<!-- Position fixed 固定定位-跟float很像 relative 相對定位-從原本的地方開始偏移-->
 	<h1 >CSS練習 Position</h1>
-	<div style="position:fixed; top:20px; width:80px; height:80px; background-color:blue;"></div>
+	<div style="position:relative; top:20px; width:80px; height:80px; background-color:blue;"></div>
+<!-- position 的四个值：static、relative、absolute、fixed。
+绝对定位：absolute 和 fixed 统称为绝对定位
+相对定位：relative
+默认值：static;  -->
 	<div style="width:120px; height:120px; background-color:red"></div>
 	<br>
 	<!-- Absolute 絕對定位 跟float很像 獨立一層 也跟fixed很像不過不會跟著網頁動 -->
@@ -72,9 +77,30 @@
 
 	<hr>
 
-	<!-- Opacity & Border = Radius -->
+	<!-- Opacity & border-radius -->
 	<h1 >CSS練習</h1>
-	<p>這是一句話</p>
+	<p style = "position:relative; top:65px; left:25px;">透明度練習</p>
+	<div style="opacity: 1; height:80px; background-color: blue">
+	<br><br>
+<!-- opacity: 0~1 0是透明 1是有顏色 -->
+	<p style = "position:relative; top:65px; left:25px;">邊界變圓弧了</p>
+	<div style="opacity:1; border-radius:40px; height:80px; background-color: green">
+	<br><br>
+<!--
+當border-radius是height的一半 就會變成圓形
+也可以單獨設定每個角 左上右上右下左下
+-->
+	<p style = "position:relative; top:65px; left:25px;">每個角都不一樣</p>
+	<div style="opacity:1; border-radius:20px 30px 40px 50px;  height:80px; background-color: yellow">
+	</div>
+
+	<hr>
+
+	<!-- style tag -->
+	<h1 >Style Tag練習</h1>
+
+	</div>
+
 
 
 
